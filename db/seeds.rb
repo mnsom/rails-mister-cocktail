@@ -19,3 +19,9 @@ response['drinks'].each do |ingredient_hash|
     name: ingredient_hash['strIngredient1']
   )
 end
+
+Cocktail.create(name: 'Mojito')
+Cocktail.create(name: 'Old Fashioned')
+Cocktail.create(name: 'Martini')
+Cocktail.create(name: 'Margarita')
+Cocktail.create(name: 'Clover Club')
